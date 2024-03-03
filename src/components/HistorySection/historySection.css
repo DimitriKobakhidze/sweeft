@@ -1,0 +1,20 @@
+.searched-words-ctn {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.searched-word-item {
+  color: var(--color-secondary);
+  font-weight: bold;
+  font-size: 1.5rem;
+  border: solid 3px var(--color-secondary);
+  padding: 0.75rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.searched-word-item.active,
+.searched-word-item:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+}

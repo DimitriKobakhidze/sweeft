@@ -1,0 +1,17 @@
+.images-ctn {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-block: 2rem;
+}
+.photo-section-error {
+  color: var(--color-secondary);
+  padding-left: 1.5rem;
+}
+.photo-section-spinner-wrapper {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+}

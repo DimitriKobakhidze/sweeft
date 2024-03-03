@@ -1,0 +1,17 @@
+:root {
+  --color-primary: #121212;
+  --color-secondary: #d3d3d3;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--color-primary);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}

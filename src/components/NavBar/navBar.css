@@ -1,0 +1,19 @@
+.navbar {
+  background-color: var(--color-secondary);
+}
+.nav-ul {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.nav-ul li {
+  list-style-type: none;
+}
+.nav-link {
+  display: inline-flex;
+  text-decoration: none;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--color-primary);
+}
